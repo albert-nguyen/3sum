@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/cs/student/albert_nguyen/cs32/lab00'
+make: 'helloWorld' is up to date.
+make: Leaving directory '/cs/student/albert_nguyen/cs32/lab00'
+ 

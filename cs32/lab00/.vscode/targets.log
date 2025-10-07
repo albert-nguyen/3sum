@@ -1,0 +1,336 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.4.1
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Oct  6 21:30:15 2025
+
+# Variables
+
+# environment
+JAVA_HOME = /usr/lib/jvm/java-19-openjdk-19.0.0.0.36-3.rolling.fc36.x86_64
+# environment
+LC_ALL = C
+# environment
+VSCODE_CWD = /cs/student/albert_nguyen
+# environment
+GPG_TTY = not a tty
+# environment
+MODULES_CMD = /usr/share/Modules/libexec/modulecmd.tcl
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /cs/student/albert_nguyen/cs32/lab00
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = csilvm-06.cs.ucsb.edu
+# environment
+MAIL = /var/spool/mail/albert_nguyen
+# environment
+XDG_DATA_DIRS = /cs/student/albert_nguyen/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+MODULES_RUN_QUARANTINE = LD_LIBRARY_PATH LD_PRELOAD
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+SSH_ASKPASS = /usr/bin/ksshaskpass
+# environment
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS := /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /cs/student/albert_nguyen/cs32/lab00
+# environment
+define BASH_FUNC_module%%
+() {  local _mlredir=0;
+ if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then
+ if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then
+ _mlredir=0;
+ else
+ if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then
+ _mlredir=1;
+ fi;
+ fi;
+ fi;
+ case " $@ " in 
+ *' --no-redirect '*)
+ _mlredir=0
+ ;;
+ *' --redirect '*)
+ _mlredir=1
+ ;;
+ esac;
+ if [ $_mlredir -eq 0 ]; then
+ _module_raw "$@";
+ else
+ _module_raw "$@" 2>&1;
+ fi
+}
+endef
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+HISTSIZE = 1000
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+CONDA_SHLVL = 0
+# automatic
+@F = $(notdir $@)
+# environment
+SSL_CERT_FILE = /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /usr/share/man:
+# environment
+MODULEPATH = /usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+# environment
+SSL_CERT_DIR = /etc/pki/tls/certs
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/46618/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_CLI_REQUIRE_TOKEN = ca45ead4-8666-443d-ac7d-83dfc4a0cbbf
+# environment
+__MODULES_LMINIT = module use --append /usr/share/Modules/modulefiles:module use --append /etc/modulefiles:module use --append /usr/share/modulefiles
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/cs/student/albert_nguyen/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/nls.messages.json","locale":"en","availableLanguages":{}}
+# environment
+define BASH_FUNC_ml%%
+() {  module ml "$@"
+}
+endef
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /cs/student/albert_nguyen/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/cs/student/albert_nguyen/.local/bin:/cs/student/albert_nguyen/bin:/usr/share/Modules/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/var/lib/snapd/snap/bin
+# environment
+MOZ_GMP_PATH = /usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed
+# default
+MAKEFILES := 
+# environment
+MODULESHOME = /usr/share/Modules
+# automatic
+^F = $(notdir $^)
+# environment
+LOADEDMODULES = 
+# environment
+SSH_CLIENT = 128.111.27.247 58766 2022
+# environment
+DEBUGINFOD_IMA_CERT_PATH = /etc/keys/ima:
+# automatic
+?F = $(notdir $?)
+# environment
+KDEDIRS = /usr
+# automatic
++F = $(notdir $+)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /cs/student/albert_nguyen/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh
+# environment
+LOGNAME = albert_nguyen
+# makefile
+.DEFAULT_GOAL := helloWorld
+# environment
+HISTCONTROL = ignoredups
+# environment
+EDITOR = /usr/bin/nano
+# environment
+USER = albert_nguyen
+# default
+MAKE_VERSION := 4.4.1
+# environment
+DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
+# environment
+CVS_RSH = ssh
+# environment
+VSCODE_AGENT_FOLDER = /cs/student/albert_nguyen/.vscode-server
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/46618
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/46618/vscode-ipc-5a9aa4cb-b9e4-4123-844d-f93d9c673202.sock
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /cs/student/albert_nguyen
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+MATHEMATICA_HOME = /usr/local/Wolfram/Wolfram/14.2
+# environment
+XDG_SESSION_ID = 249
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+define BASH_FUNC__module_raw%%
+() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";
+ _mlstatus=$?;
+ return $_mlstatus
+}
+endef
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver jobserver-fifo output-sync check-symlink load
+# makefile (from 'Makefile', line 3)
+CXX = clang++
+# environment
+__MODULES_SHARE_MANPATH = :1
+# environment
+SSH_CONNECTION = 128.111.27.247 58766 128.111.30.206 2022
+# variable set hash-table stats:
+# Load=93/1024=9%, Rehash=0, Collisions=3/122=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 67, inode 17542129675): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+lab00Test.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+arrayFuncs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-10-06 21:30:12.511447922
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+		/bin/rm -f *.o helloWorld lab00Test
+
+# Not a target:
+helloWorld.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+helloWorld: helloWorld.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+		${CXX} helloWorld.o -o helloWorld
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+lab00Test: lab00Test.o tddFuncs.o arrayFuncs.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+		${CXX} lab00Test.o tddFuncs.o arrayFuncs.o -o lab00Test
+
+# Not a target:
+tddFuncs.o:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/26=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 234 B / avg = 10 B
+# current buf: size = 8162 B / used = 234 B / count = 22 / avg = 10 B
+
+# strcache performance: lookups = 31 / hit rate = 29%
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=0/31=0%
+# Finished Make data base on Mon Oct  6 21:30:15 2025
+
+ 
